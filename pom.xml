@@ -21,6 +21,9 @@
         <module>hysrtix</module>
         <module>nativeconfigserver</module>
         <module>nativeconfigclient</module>
+        <module>configserver</module>
+        <module>config</module>
+        <module>configclient</module>
     </modules>
 
     <parent>
