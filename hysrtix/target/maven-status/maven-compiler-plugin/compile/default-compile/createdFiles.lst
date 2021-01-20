@@ -1,0 +1,4 @@
+com\sourthwind\HystrixApplication.class
+com\sourthwind\model\Student.class
+com\sourthwind\service\FeignProviderClient.class
+com\sourthwind\controller\HystrixHandler.class

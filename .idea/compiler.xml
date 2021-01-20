@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="registry" />
+        <module name="fegin" />
+        <module name="nativeconfigserver" />
+        <module name="registrycenter" />
+        <module name="provide2" />
+        <module name="ribbon" />
+        <module name="nativeconfigclient" />
+        <module name="consumer" />
+        <module name="gateway" />
+        <module name="hysrtix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hystrix" target="8" />
+      <module name="hystrix.main" target="1.8" />
+      <module name="hystrix.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="fegin" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="hysrtix" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="myspringclouddemo" options="-parameters" />
+      <module name="nativeconfigclient" options="-parameters" />
+      <module name="nativeconfigserver" options="-parameters" />
+      <module name="provide2" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="registry" options="-parameters" />
+      <module name="registrycenter" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+    </option>
+  </component>
+</project>
